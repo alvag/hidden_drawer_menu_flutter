@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   hidden_drawer_menu: ^1.1.2
   provider: ^4.0.5
+  liquid_swipe: ^1.4.3
 
 dev_dependencies:
   flutter_test:

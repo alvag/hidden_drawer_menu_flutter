@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hidden_drawer_menu_flutter/src/pages/home_3_page.dart';
 import 'package:hidden_drawer_menu_flutter/src/providers/heroes_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Material App',
         // home: HomePage(),
-        home: Home2Page(),
+        // home: Home2Page(),
+        home: Home3Page(),
       ),
     );
   }

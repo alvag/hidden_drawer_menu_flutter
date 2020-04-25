@@ -4,8 +4,11 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('First Page'),
+      body: Container(
+        color: Colors.redAccent,
+        child: Center(
+          child: Text('First Page'),
+        ),
       ),
     );
   }
